@@ -1,0 +1,6 @@
+framework module Pods_TabPagerStrip {
+  umbrella header "Pods-TabPagerStrip-umbrella.h"
+
+  export *
+  module * { export * }
+}

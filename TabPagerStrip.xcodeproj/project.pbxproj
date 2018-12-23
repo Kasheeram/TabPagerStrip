@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		89BEF0C421CEC429001ABB6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0C321CEC429001ABB6D /* AppDelegate.swift */; };
-		89BEF0C621CEC429001ABB6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0C521CEC429001ABB6D /* ViewController.swift */; };
 		89BEF0C921CEC429001ABB6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BEF0C721CEC429001ABB6D /* Main.storyboard */; };
 		89BEF0CC21CEC429001ABB6D /* TabPagerStrip.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0CA21CEC429001ABB6D /* TabPagerStrip.xcdatamodeld */; };
 		89BEF0CE21CEC42A001ABB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BEF0CD21CEC42A001ABB6D /* Assets.xcassets */; };
 		89BEF0D121CEC42A001ABB6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BEF0CF21CEC42A001ABB6D /* LaunchScreen.storyboard */; };
 		89BEF0DC21CEC42A001ABB6D /* TabPagerStripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0DB21CEC42A001ABB6D /* TabPagerStripTests.swift */; };
 		89BEF0E721CEC42A001ABB6D /* TabPagerStripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0E621CEC42A001ABB6D /* TabPagerStripUITests.swift */; };
+		89BEF0F521CEC696001ABB6D /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0F421CEC696001ABB6D /* ParentViewController.swift */; };
+		89BEF0F721CED32F001ABB6D /* ChildViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0F621CED32F001ABB6D /* ChildViewController1.swift */; };
+		89BEF0F921CED33F001ABB6D /* ChildViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BEF0F821CED33F001ABB6D /* ChildViewController2.swift */; };
+		DA1932B792E6063ED7439BE5 /* Pods_TabPagerStrip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED84E0F3B6F545463D3AC1D1 /* Pods_TabPagerStrip.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C4A9C2F0E3D41A7A3937B35 /* Pods-TabPagerStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabPagerStrip.release.xcconfig"; path = "Pods/Target Support Files/Pods-TabPagerStrip/Pods-TabPagerStrip.release.xcconfig"; sourceTree = "<group>"; };
 		89BEF0C021CEC429001ABB6D /* TabPagerStrip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabPagerStrip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BEF0C321CEC429001ABB6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89BEF0C521CEC429001ABB6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		89BEF0C821CEC429001ABB6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89BEF0CB21CEC429001ABB6D /* TabPagerStrip.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TabPagerStrip.xcdatamodel; sourceTree = "<group>"; };
 		89BEF0CD21CEC42A001ABB6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		89BEF0E221CEC42A001ABB6D /* TabPagerStripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabPagerStripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BEF0E621CEC42A001ABB6D /* TabPagerStripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabPagerStripUITests.swift; sourceTree = "<group>"; };
 		89BEF0E821CEC42A001ABB6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BEF0F421CEC696001ABB6D /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		89BEF0F621CED32F001ABB6D /* ChildViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController1.swift; sourceTree = "<group>"; };
+		89BEF0F821CED33F001ABB6D /* ChildViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController2.swift; sourceTree = "<group>"; };
+		BC66CC090C8B4F190351CE84 /* Pods-TabPagerStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabPagerStrip.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TabPagerStrip/Pods-TabPagerStrip.debug.xcconfig"; sourceTree = "<group>"; };
+		ED84E0F3B6F545463D3AC1D1 /* Pods_TabPagerStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabPagerStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1932B792E6063ED7439BE5 /* Pods_TabPagerStrip.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +92,8 @@
 				89BEF0DA21CEC42A001ABB6D /* TabPagerStripTests */,
 				89BEF0E521CEC42A001ABB6D /* TabPagerStripUITests */,
 				89BEF0C121CEC429001ABB6D /* Products */,
+				8E5FA986DCC14D58A110F5D8 /* Pods */,
+				8AAB66B460B668F56567D275 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +111,14 @@
 			isa = PBXGroup;
 			children = (
 				89BEF0C321CEC429001ABB6D /* AppDelegate.swift */,
-				89BEF0C521CEC429001ABB6D /* ViewController.swift */,
+				89BEF0F421CEC696001ABB6D /* ParentViewController.swift */,
 				89BEF0C721CEC429001ABB6D /* Main.storyboard */,
 				89BEF0CD21CEC42A001ABB6D /* Assets.xcassets */,
 				89BEF0CF21CEC42A001ABB6D /* LaunchScreen.storyboard */,
 				89BEF0D221CEC42A001ABB6D /* Info.plist */,
 				89BEF0CA21CEC429001ABB6D /* TabPagerStrip.xcdatamodeld */,
+				89BEF0F621CED32F001ABB6D /* ChildViewController1.swift */,
+				89BEF0F821CED33F001ABB6D /* ChildViewController2.swift */,
 			);
 			path = TabPagerStrip;
 			sourceTree = "<group>";
@@ -128,6 +141,23 @@
 			path = TabPagerStripUITests;
 			sourceTree = "<group>";
 		};
+		8AAB66B460B668F56567D275 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED84E0F3B6F545463D3AC1D1 /* Pods_TabPagerStrip.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E5FA986DCC14D58A110F5D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC66CC090C8B4F190351CE84 /* Pods-TabPagerStrip.debug.xcconfig */,
+				5C4A9C2F0E3D41A7A3937B35 /* Pods-TabPagerStrip.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +165,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89BEF0EB21CEC42A001ABB6D /* Build configuration list for PBXNativeTarget "TabPagerStrip" */;
 			buildPhases = (
+				773880064683C9A731B2F959 /* [CP] Check Pods Manifest.lock */,
 				89BEF0BC21CEC429001ABB6D /* Sources */,
 				89BEF0BD21CEC429001ABB6D /* Frameworks */,
 				89BEF0BE21CEC429001ABB6D /* Resources */,
+				F8A2E77EF2DF66D96579EEF8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +286,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		773880064683C9A731B2F959 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabPagerStrip-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8A2E77EF2DF66D96579EEF8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TabPagerStrip/Pods-TabPagerStrip-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TabPagerStrip/Pods-TabPagerStrip-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		89BEF0BC21CEC429001ABB6D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89BEF0C621CEC429001ABB6D /* ViewController.swift in Sources */,
 				89BEF0CC21CEC429001ABB6D /* TabPagerStrip.xcdatamodeld in Sources */,
+				89BEF0F721CED32F001ABB6D /* ChildViewController1.swift in Sources */,
 				89BEF0C421CEC429001ABB6D /* AppDelegate.swift in Sources */,
+				89BEF0F921CED33F001ABB6D /* ChildViewController2.swift in Sources */,
+				89BEF0F521CEC696001ABB6D /* ParentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +505,7 @@
 		};
 		89BEF0EC21CEC42A001ABB6D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC66CC090C8B4F190351CE84 /* Pods-TabPagerStrip.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +523,7 @@
 		};
 		89BEF0ED21CEC42A001ABB6D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C4A9C2F0E3D41A7A3937B35 /* Pods-TabPagerStrip.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
