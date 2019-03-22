@@ -14,6 +14,7 @@ class ChildViewController1: UIViewController, IndicatorInfoProvider {
     let childLabel:UILabel = {
         let lable = UILabel()
         lable.text = "child1 viewcontroller"
+        lable.textAlignment = .center
         lable.translatesAutoresizingMaskIntoConstraints = false
         return lable
     }()
@@ -22,10 +23,17 @@ class ChildViewController1: UIViewController, IndicatorInfoProvider {
         super.viewDidLoad()
 
         view.addSubview(childLabel)
-        childLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        childLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
-        childLabel.widthAnchor.constraint(equalToConstant: 200).isActive = true
-        childLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
+//        childLabel.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+//        childLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+//        childLabel.widthAnchor.constraint(equalToConstant: 200).isActive = true
+//        childLabel.heightAnchor.constraint(equalToConstant: 40).isActive = true
+        
+        childLabel.topAnchor.constraint(equalTo: view.topAnchor, constant:30).isActive = true
+        childLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
+        childLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
+        childLabel.bottomAnchor.constraint(equalTo: view.bottomAnchor,constant:-20).isActive = true
+        childLabel.backgroundColor = .purple
+//        view.backgroundColor = .red
     }
 
     override func didReceiveMemoryWarning() {

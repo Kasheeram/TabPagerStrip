@@ -361,7 +361,7 @@ open class PagerTabStripViewController: UIViewController, UIScrollViewDelegate {
         guard viewControllers.count != 0 else {
             fatalError("viewControllersForPagerTabStrip should provide at least one child view controller")
         }
-        viewControllers.forEach { if !($0 is IndicatorInfoProvider) { fatalError("Every view controller provided by PagerTabStripDataSource's viewControllersForPagerTabStrip method must conform to  InfoProvider") }}
+        viewControllers.forEach { if !($0 is IndicatorInfoProvider) { fatalError("Every view controller /Volumes/Developer/ios_practice/TabPagerStrip/Pods/XLPagerTabStrip/Sources/ButtonCell.xibprovided by PagerTabStripDataSource's viewControllersForPagerTabStrip method must conform to  InfoProvider") }}
 
     }
     

@@ -12,7 +12,7 @@ import XLPagerTabStrip
 class ParentViewController: ButtonBarPagerTabStripViewController {
 
     let purpleInspireColor = UIColor(red:0.13, green:0.03, blue:0.25, alpha:1.0)
-    
+   
     override func viewDidLoad() {
         
         // change selected bar color
@@ -28,6 +28,7 @@ class ParentViewController: ButtonBarPagerTabStripViewController {
         settings.style.buttonBarItemsShouldFillAvailiableWidth = true
         settings.style.buttonBarLeftContentInset = 10
         settings.style.buttonBarRightContentInset = 10
+//        settings.style.button
         changeCurrentIndexProgressive = { [weak self] (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
             guard changeCurrentIndex == true else { return }
             oldCell?.label.textColor = .white
@@ -35,6 +36,11 @@ class ParentViewController: ButtonBarPagerTabStripViewController {
         }
         super.viewDidLoad()
 
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        
     }
 
     

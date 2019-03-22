@@ -18,14 +18,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Sjo-sF-2ML">
-                                <rect key="frame" x="0.0" y="84" width="375" height="583"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Sjo-sF-2ML">
+                                <rect key="frame" x="0.0" y="144" width="375" height="523"/>
                             </scrollView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="xJU-Cb-rML" customClass="ButtonBarView" customModule="XLPagerTabStrip">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="144"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="HTm-zl-Vrt"/>
+                                    <constraint firstAttribute="height" constant="144" id="gmU-uB-DR5"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="xbd-5Y-UDX">
                                     <size key="itemSize" width="50" height="50"/>
@@ -42,9 +42,11 @@
                             <constraint firstItem="Sjo-sF-2ML" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="6G1-17-wq7"/>
                             <constraint firstItem="xJU-Cb-rML" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="C2M-ht-Ndl"/>
                             <constraint firstItem="Sjo-sF-2ML" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Krf-dQ-xFf"/>
+                            <constraint firstItem="xJU-Cb-rML" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Qlw-hr-72S"/>
                             <constraint firstItem="Sjo-sF-2ML" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="TRH-iK-b1t"/>
+                            <constraint firstItem="xJU-Cb-rML" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="aJB-g2-Nxm"/>
                             <constraint firstItem="xJU-Cb-rML" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="cKy-5A-ZXV"/>
-                            <constraint firstItem="xJU-Cb-rML" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="iBF-7b-o0k"/>
+                            <constraint firstItem="xJU-Cb-rML" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="xDz-TN-jTp"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
